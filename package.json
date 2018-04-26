@@ -2,6 +2,7 @@
   "name": "a-simple-react-router-v4-tutorial",
   "description": "https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf",
   "version": "0.0.53",
+  "main": "index.js",
   "dependencies": {
     "react-router-dom": "4.1.1",
     "react-dom": "15.5.3",
@@ -10,6 +11,7 @@
   "devDependencies": {
     "react-scripts": "1.0.0"
   },
+    "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

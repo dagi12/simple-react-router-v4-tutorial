@@ -1,10 +1,11 @@
+//es
 import React from 'react'
 import { render } from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import App from './components/App';
 
 render((
-  <BrowserRouter>
+  <HashRouter hashType="hashbang">
     <App />
-  </BrowserRouter>
+  </HashRouter>
 ), document.getElementById('root'));
